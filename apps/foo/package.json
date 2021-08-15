@@ -8,6 +8,7 @@
             "electron"
         ]
     },
+    "config": {"forge": "./forge.config.js"},
     "scripts": {
         "start": "electron-forge start",
         "package": "electron-forge package",

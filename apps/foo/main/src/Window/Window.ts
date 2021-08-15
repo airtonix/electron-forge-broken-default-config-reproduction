@@ -58,7 +58,7 @@ export class Window {
       width: windowOptions.width || 0,
       height: windowOptions.height || 0,
     };
-    this.state = {x: 0, y: 0, width: 720, height: 1080};
+    this.state = {x: 32, y: 128, width: 720, height: 480};
 
     this.window = new BrowserWindow({
       ...this.size,

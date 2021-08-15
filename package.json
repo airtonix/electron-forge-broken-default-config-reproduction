@@ -1,0 +1,16 @@
+{
+  "name": "electron-forge-broken-default-config-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app:foo": "pnpm -r --filter=./apps/foo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.3.5"
+
+  }
+}

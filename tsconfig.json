@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.base.json",
+  "include": [
+    "./apps/**/*",
+  ],
+  "compilerOptions": {
+    "module": "CommonJS",
+    "isolatedModules": false,
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types", "packages/@types"]
+  }
+}

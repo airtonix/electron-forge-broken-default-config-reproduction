@@ -1,0 +1,12 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["src", ],
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "commonjs",
+    "lib": ["es2018", "esnext", "esnext.asynciterable"],
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  }
+}
